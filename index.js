@@ -1,4 +1,5 @@
 $(".button-collapse").sideNav();
+$('ul.tabs').tabs();
 
 $(function() {
   $('a[href*=#]:not([href=#])').click(function() {
@@ -8,8 +9,8 @@ $(function() {
       if (target.length) {
         $('html,body').animate({
           scrollTop: target.offset().top
-        }, 1000);
-        return false;
+        }, 900);
+        return true;  /*false makes tabs not work but true means you have to wait 900 to scroll down otherwise glitch*/
       }
     }
   });

@@ -6,6 +6,13 @@ nav {
   max-width: 90%;
   margin: 0 auto;
 }
+h1 {
+  margin: 0 auto;
+  text-align: center;s
+}
+h5 {
+  text-align: center;
+}
 .banner {
   background-image: url('banner.png');
   background-position: 50% 0%;
