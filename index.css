@@ -38,12 +38,17 @@ h2 {
   text-align: center;
 }
 #contact {
-  width: 65%;
+  width: 55%;
   margin: 0 auto;
 }
 .subscribe {
-  margin: 0 auto;
   text-align: center;
+  margin: 0 auto;
+}
+@media screen and (max-width: 992px) {
+  #contact {
+    width: 80%;
+  }
 }
 @media screen and (max-width: 730px) {
   .banner {
@@ -54,7 +59,9 @@ h2 {
 
 }
 @media screen and (max-width: 600px) {
-  
+  #contact {
+    width: 95%;
+  }
 }
 @media screen and (max-width: 526px) {
   .banner {
