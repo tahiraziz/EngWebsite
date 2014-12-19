@@ -6576,7 +6576,7 @@ ul.tabs li.tab {
 
 @media only screen and (min-width: 992px) {
   ul.tabs li.tab {
-    max-width:25%
+    max-width: 50%
   }
 }
 
