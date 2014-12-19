@@ -6453,7 +6453,7 @@ small {
 }
 
 .card .card-footer {
-  background-color:#FFF;
+  background-color:#607D8B;
   padding:2px 1rem 8px;
   -webkit-border-radius:0 0 2px 2px;
   -moz-border-radius:0 0 2px 2px;
@@ -6689,7 +6689,7 @@ ul.tabs li.tab {
 .btn,.btn-large {
   text-decoration:none;
   color:#FFF;
-  background-color:#2196F3;
+  background-color:#FF5722;
   text-align:center;
   letter-spacing:.8px;
   -webkit-transition:.2s ease-out;
@@ -6700,7 +6700,7 @@ ul.tabs li.tab {
 }
 
 .btn:hover,.btn-large:hover {
-  background-color:#39a1f4
+  background-color:#FF5722;
 }
 
 .btn-floating {
@@ -7039,10 +7039,10 @@ input[type=text],input[type=password],input[type=email],textarea {
 }
 
 input[type=text]:focus,input[type=password]:focus,input[type=email]:focus,textarea:focus {
-  border-bottom:1px solid #03a9f4;
-  -webkit-box-shadow:0 1px 0 0 #03a9f4;
-  -moz-box-shadow:0 1px 0 0 #03a9f4;
-  box-shadow:0 1px 0 0 #03a9f4
+  border-bottom:1px solid #FF5722;
+  -webkit-box-shadow:0 1px 0 0 #FF5722;
+  -moz-box-shadow:0 1px 0 0 #FF5722;
+  box-shadow:0 1px 0 0 #FF5722
 }
 
 textarea {
@@ -7108,8 +7108,8 @@ textarea {
 
 [type="radio"]:checked+label:after {
   border-radius:50%;
-  border:2px solid #0f9d58;
-  background-color:#0f9d58;
+  border:2px solid #727272;
+  background-color: #727272;
   z-index:0;
   -webkit-transform:scale(1.02);
   -moz-transform:scale(1.02);
