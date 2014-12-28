@@ -1,3 +1,18 @@
+.utdhgreen {
+  background:#C8E6C9;
+}
+.csggray {
+  background: #CFD8DC;
+}
+.wwcpink {
+  background: #F8BBD0;
+}
+.lugyellow {
+  background: #FFF9C4;
+}
+.cbbrown {
+  background: #D7CCC8;
+}
 nav {
 
   z-index: 100;
@@ -29,9 +44,54 @@ h2 {
 .acm {
   margin: 0 auto;
 }
+.with-header {
+  width: 60%;
+  margin: 0 auto;
+  -webkit-box-shadow:0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+  -moz-box-shadow:0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+  box-shadow:0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)
+}
+.collection-header {
+  background: #ffccbc;
+  color: #212121s;
+}
+.info {
+  display: flex;
+  flex-direction: row;
+}
+.one {
+  order: 1;
+}
+.img {
+  margin-right: 27px;
+  font-size: 1.6rem;
+}
+.txt {
+  order: 2;
+}
+.oneline {
+  margin-top: .6rem;
+}
+.m {
+  justify-content: space-between;
+}
+.s {
+  padding-right: 45px;
+}
+.mdi-content-send {
+  float: right;
+  font-size: 1.6rem;
+  transition: 0.3s ease all;
+}
+.mdi-content-send:hover {
+  color: #FF5722;
+}
 .collapsible {
   width: 60%;
   margin: 0 auto;
+}
+.collapsible-header {
+  padding-left: 20px;
 }
 #contact {
   width: 55%;
@@ -42,7 +102,7 @@ h2 {
   margin: 0 auto;
 }
 @media screen and (max-width: 992px) {
-  .collapsible {
+  .collection, .collapsible {
     width: 70%;
     margin: 0 auto;
   }
@@ -58,8 +118,8 @@ h2 {
   }
 }
 @media screen and (max-width: 685px) {
-  .collapsible {
-    width: 80%;
+  .collection, .collapsible {
+    width: 90%;
     margin: 0 auto;
   }
 }

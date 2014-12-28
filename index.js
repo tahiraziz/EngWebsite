@@ -1,6 +1,5 @@
 $(".button-collapse").sideNav();
 $('ul.tabs').tabs();
-
 $('.collapsible').collapsible();
 
 /*SMOOTH SCROLLING EXCEPT ON TABS*/
