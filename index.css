@@ -28,7 +28,6 @@ h1 {
 }
 h5 {
   text-align: center;
-  color: #727272;
 }
 .banner {
   background-image: url('banner.png');
@@ -54,6 +53,10 @@ h2 {
 .collection-header {
   background: #ffccbc;
   color: #212121s;
+}
+.help {
+  margin: 0 auto;
+  width: 40%;
 }
 .info {
   display: flex;
@@ -81,10 +84,24 @@ h2 {
 .mdi-content-send {
   float: right;
   font-size: 1.6rem;
-  transition: 0.3s ease all;
 }
-.mdi-content-send:hover {
-  color: #FF5722;
+.darkgreen, .darkgray, .darkpink, .darkyellow, .darkbrown {
+  transition: 0.4s ease all;
+}
+.darkgreen:hover {
+  color: #4CAF50;
+}
+.darkgray:hover {
+  color: #607D8B;
+}
+.darkpink:hover {
+  color: #E91E63;
+}
+.darkyellow:hover {
+  color: #FFEB3B;
+}
+.darkbrown:hover {
+  color: #795548;
 }
 .collapsible {
   width: 60%;
