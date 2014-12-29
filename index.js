@@ -1,8 +1,10 @@
 $(".button-collapse").sideNav();
 $('ul.tabs').tabs();
-$('.collapsible').collapsible();
+$('.collapsible').collapsible({accordion : false});
 $(".collapsible-header").click(function() {
-  $(this).children('.mdi-navigation-arrow-drop-down-circle').toggleClass("rotate");
+
+  $(this).find('.mdi-navigation-arrow-drop-down-circle').toggleClass("rotate");
+
 });
 
 /*SMOOTH SCROLLING EXCEPT ON TABS*/

@@ -6410,6 +6410,9 @@ small {
   border-radius:2px;
   background-clip:padding-box;
   margin-top:10px
+  position: relative;
+  overflow: hidden;
+  box-sizing: border-box;
 }
 
 .card h1 {
@@ -6428,14 +6431,25 @@ small {
 }
 
 .card p {
-  font-size:.8rem;
-  color:#fff
+  line-height: 1.5;
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
 }
-
 .card .card-content {
   position:relative;
   overflow:hidden;
-  padding:1rem
+  padding: 16px;
+  border-radius: 0 0 2px 2px;
+  background-clip: padding-box;
+  box-sizing: border-box;
+}
+.card-title {
+  line-height: 48px;
+  font-size: 24px;
+  font-weight: 300;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.05rem;
 }
 
 .card .card-content img {
@@ -6465,14 +6479,29 @@ small {
 .card .card-footer h1,.card .card-footer h2,.card .card-footer h3,.card .card-footer p {
   color:#000
 }
-
-.card a.card-action {
-  margin-right:20%;
-  color:#ffab2e
+.card .card-action {
+  border-top: 1px solid rgba(160, 160, 160, 0.2);
+  padding: 16px;
+  font-size: 15px;
+  line-height: 1.5;
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
 }
-
-.card a.card-action:hover {
-  color:#ffcc35
+.card a {
+  color: #FF5722;
+  margin-right: 16px;
+  transition: color 0.3s ease;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: transparent;
+  cursor: auto;
+  font-size: 15px;
+  line-height: 1.5;
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+}
+.card a:hover {
+  color: #727272;
 }
 
 #toast-container {

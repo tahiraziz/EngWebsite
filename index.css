@@ -47,6 +47,9 @@ h2 {
 .acm {
   margin: 0 auto;
 }
+.help {
+  background: #FBE9E7;
+}
 .with-header {
   width: 60%;
   margin: 0 auto;
@@ -107,10 +110,10 @@ h2 {
   color: #795548;
 }
 .rotate {
-  transform: rotate(180deg);
+  transform: rotate(-180deg);
 }
 .collapsible {
-  width: 55%;
+  width: 50%;
   margin: 0 auto;
 }
 .collapsible-header {
