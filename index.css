@@ -17,6 +17,10 @@ nav {
 
   z-index: 100;
 }
+.logo {
+  transform: scale(0.5);
+  margin-top: -38.5px;
+}
 .nav-wrapper {
   max-width: 90%;
   margin: 0 auto;
@@ -51,7 +55,7 @@ h2 {
   box-shadow:0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)
 }
 .collection-header {
-  background: #FFAB91;
+  background: #FFCCBC;
   color: #212121;
 }
 .info {
@@ -82,6 +86,7 @@ h2 {
 .mdi-content-send {
   float: right;
   font-size: 1.6rem;
+  margin-right: 13px;
 }
 .darkgreen, .darkgray, .darkpink, .darkyellow, .darkbrown {
   transition: 0.4s ease all;
@@ -96,20 +101,23 @@ h2 {
   color: #E91E63;
 }
 .darkyellow:hover {
-  color: #FFEE58;
+  color: #FFEB3B;
 }
 .darkbrown:hover {
   color: #795548;
 }
+.rotate {
+  transform: rotate(180deg);
+}
 .collapsible {
-  width: 60%;
+  width: 55%;
   margin: 0 auto;
 }
 .collapsible-header {
   padding-left: 20px;
 }
 #contact {
-  width: 55%;
+  width: 60%;
   margin: 0 auto;
 }
 .subscribe {
@@ -120,9 +128,12 @@ h2 {
   margin-left: 10px;
 }
 @media screen and (max-width: 992px) {
-  .unnested, .collapsible {
-    width: 75%;
+  .unnested {
+    width: 70%;
     margin: 0 auto;
+  }
+  .collapsible {
+    width: 70%;
   }
 }
 @media screen and (max-width: 992px) {
@@ -147,6 +158,9 @@ h2 {
 @media screen and (max-width: 600px) {
   #contact {
     width: 95%;
+  }
+  .logo {
+    margin-top: -42px;
   }
 }
 @media screen and (max-width: 526px) {

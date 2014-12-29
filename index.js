@@ -1,6 +1,9 @@
 $(".button-collapse").sideNav();
 $('ul.tabs').tabs();
 $('.collapsible').collapsible();
+$(".collapsible-header").click(function() {
+  $(this).children('.mdi-navigation-arrow-drop-down-circle').toggleClass("rotate");
+});
 
 /*SMOOTH SCROLLING EXCEPT ON TABS*/
 $(function() {
