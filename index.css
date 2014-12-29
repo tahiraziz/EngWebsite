@@ -51,8 +51,8 @@ h2 {
   box-shadow:0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)
 }
 .collection-header {
-  background: #ffccbc;
-  color: #212121s;
+  background: #FFAB91;
+  color: #212121;
 }
 .info {
   display: flex;
@@ -96,7 +96,7 @@ h2 {
   color: #E91E63;
 }
 .darkyellow:hover {
-  color: #FFEB3B;
+  color: #FFEE58;
 }
 .darkbrown:hover {
   color: #795548;
