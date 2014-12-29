@@ -54,10 +54,6 @@ h2 {
   background: #ffccbc;
   color: #212121s;
 }
-.help {
-  margin: 0 auto;
-  width: 40%;
-}
 .info {
   display: flex;
   flex-direction: row;
@@ -71,6 +67,8 @@ h2 {
 }
 .txt {
   order: 2;
+  position: relative;
+  max-width: 80%;
 }
 .oneline {
   margin-top: .6rem;
@@ -79,7 +77,7 @@ h2 {
   justify-content: space-between;
 }
 .s {
-  padding-right: 45px;
+  padding-right: 35px;
 }
 .mdi-content-send {
   float: right;
@@ -118,9 +116,12 @@ h2 {
   text-align: center;
   margin: 0 auto;
 }
+.l {
+  margin-left: 10px;
+}
 @media screen and (max-width: 992px) {
-  .collection, .collapsible {
-    width: 70%;
+  .unnested, .collapsible {
+    width: 75%;
     margin: 0 auto;
   }
 }
@@ -135,8 +136,8 @@ h2 {
   }
 }
 @media screen and (max-width: 685px) {
-  .collection, .collapsible {
-    width: 90%;
+  .unnested, .collapsible {
+    width: 95%;
     margin: 0 auto;
   }
 }
