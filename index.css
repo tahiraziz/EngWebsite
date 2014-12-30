@@ -14,7 +14,6 @@
   background: #EFEBE9;
 }
 nav {
-
   z-index: 100;
 }
 .logo {
@@ -43,13 +42,13 @@ h5 {
 h2 {
   text-align: center;
   color: #212121;
-  padding: 0.5em 0;
+  padding: 40px 0;
 }
 .acm {
   margin: 0 auto;
 }
 .help {
-  background: #FBE9E7;
+  background: #FFCCBC;
 }
 .with-header {
   width: 55%;
@@ -125,12 +124,66 @@ h2 {
   width: 60%;
   margin: 0 auto;
 }
+h3 {
+  text-align: center;
+  color: #212121;
+  padding: 40px 0;
+}
 .subscribe {
   text-align: center;
   margin: 0 auto;
 }
 .l {
   margin-left: 10px;
+}
+.title {
+  margin: 60px auto 20px auto;
+  text-align: center;
+}
+.bigdivider {
+  border: 0;
+  height: 0;
+  width: 45px;
+  border-top: 1px solid #B6B6B6;
+  border-bottom: 1px solid #B6B6B6;
+}
+.center {
+  text-align: center;
+  margin-bottom: 60px;
+  margin-top: 20px;
+}
+.small {
+  width: 31%;
+}
+.card .card-image {
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  line-height: 100px;
+}
+.thing {
+  text-align: center;
+  margin: -34px auto 0 auto;
+  position: relative !important;
+}
+.mdi-hardware-laptop, .mdi-action-account-circle, .mdi-social-cake {
+  font-size: 3rem;
+  text-align: center;
+  color: #FF5722;
+  margin: 0 auto;
+}
+.aboutuswrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0 auto;
+  width: 96%;
+}
+.small {
+  margin: 0 auto;
+}
+.meet {
+  text-align: center;
 }
 @media screen and (max-width: 992px) {
   .unnested {
@@ -146,6 +199,15 @@ h2 {
     width: 80%;
   }
 }
+@media screen and (max-width: 817px) {
+  .aboutuswrap {
+    flex-direction: column;
+  }
+  .small {
+    width: 67%;
+    margin: 1em auto 0 auto;
+  }
+}
 @media screen and (max-width: 730px) {
   .banner {
       height: 300px;
@@ -158,12 +220,14 @@ h2 {
   .collapsible {
     width: 85%;
   }
-  .topspace {
+  .topspace, .small {
     margin: 0.9em auto 0 auto;
   }
 }
-@media screen and (min-width: 600px) {
-
+@media screen and (max-width: 657px) {
+  .small {
+    width: 80%;
+  }
 }
 @media screen and (max-width: 600px) {
   #contact {
@@ -178,13 +242,21 @@ h2 {
   .collapsible {
     width: 95%;
   }
-  .topspace {
+  .topspace, .small {
     margin: 0.8em auto 0 auto;
   }
 }
 @media screen and (max-width: 526px) {
   .banner {
     height: 250px;
+  }
+}
+@media screen and (max-width: 468px) {
+  .small {
+    width: 95%;
+  }
+  .aboutuswrap {
+    width: 100%;
   }
 }
 @media screen and (max-width: 425px) {

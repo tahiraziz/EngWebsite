@@ -89,8 +89,7 @@ figure {
 }
 
 hr {
-  -moz-box-sizing:content-box;
-  box-sizing:content-box;
+
   height:0
 }
 
@@ -6409,7 +6408,6 @@ small {
   -moz-border-radius:2px;
   border-radius:2px;
   background-clip:padding-box;
-  margin-top:10px
   position: relative;
   overflow: hidden;
   box-sizing: border-box;
@@ -6465,7 +6463,6 @@ small {
   width:100%;
   z-index:-1
 }
-
 .card .card-footer {
   background-color:#607D8B;
   padding:2px 1rem 8px;
@@ -6474,6 +6471,25 @@ small {
   border-radius:0 0 2px 2px;
   background-clip:padding-box;
   margin-bottom:30px
+}
+.card.small {
+
+  position: relative;
+}
+.card.small .card-image {
+  overflow: hidden;
+  height: 150px;
+  border-bottom: 1px solid rgba(160, 160, 160, 0.2);
+}
+.card .card-image {
+  position: relative;
+  overflow: hidden;
+}
+.card .card-image .card-title {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 16px;
 }
 
 .card .card-footer h1,.card .card-footer h2,.card .card-footer h3,.card .card-footer p {
