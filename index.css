@@ -117,9 +117,6 @@ h2 {
   margin: 0 auto;
 
 }
-.acmintro {
-  margin-top: 40px;
-}
 .collapsible-header {
   padding-left: 20px;
 }
@@ -136,7 +133,7 @@ h3 {
   padding: 40px 0;
 }
 .subscribe {
-  text-align: center;
+  text-align: left;
   margin: 0 auto;
 }
 .l {
@@ -157,6 +154,11 @@ h3 {
   text-align: center;
   margin-bottom: 60px;
   margin-top: 20px;
+}
+.sigtext {
+  width: 50%;
+  text-align: left;
+  margin: 20px auto 60px auto;
 }
 .small {
   width: 31%;
@@ -192,11 +194,11 @@ h3 {
   text-align: center;
 }
 @media screen and (max-width: 992px) {
-  .unnested {
+  .unnested, .collapsible {
     width: 70%;
   }
-  .collapsible {
-    width: 70%;
+  .sigtext {
+    width: 60%;
   }
   .topspace {
     margin: 1em auto 0 auto;
@@ -220,14 +222,17 @@ h3 {
   }
 }
 @media screen and (max-width: 685px) {
-  .unnested {
+  .unnested, .collapsible {
     width: 85%;
   }
-  .collapsible {
-    width: 85%;
+  .sigtext {
+    width: 75%;
   }
   .topspace, .small {
     margin: 0.9em auto 0 auto;
+  }
+  .subscribe {
+    text-align: center;
   }
 }
 @media screen and (max-width: 657px) {
@@ -242,11 +247,11 @@ h3 {
   .logo {
     margin-top: -42px;
   }
-  .unnested {
+  .unnested, .collapsible {
     width: 95%;
   }
-  .collapsible {
-    width: 95%;
+  .sigtext {
+    width: 80%;
   }
   .topspace, .small {
     margin: 0.8em auto 0 auto;
