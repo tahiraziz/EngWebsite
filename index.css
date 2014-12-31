@@ -13,6 +13,9 @@
 .cbbrown {
   background: #EFEBE9;
 }
+body {
+
+}
 nav {
   z-index: 100;
 }
@@ -113,6 +116,9 @@ h2 {
   width: 55%;
   margin: 0 auto;
 
+}
+.acmintro {
+  margin-top: 40px;
 }
 .collapsible-header {
   padding-left: 20px;

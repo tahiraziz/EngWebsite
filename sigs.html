@@ -1,28 +1,77 @@
-<!DOCTYPE HTML>
+<html>
 <head>
-
+  <link rel="shortcut icon" href="http://f.cl.ly/items/3Z47152s1S463S3S1a0W/favicon.ico">
+  <title>ACM SIGs</title>
+  <!--Import materialize.css-->
+  <link type="text/css" rel="stylesheet" href="materialize_v0.82/css/materialize.min.css"  media="screen,projection"/>
+  <link type="text/css" rel="stylesheet" href="index.css" media="screen,projection"/>
 </head>
 
-
 <body>
-  <section>
-    <p>About ACM UTD</p>
 
-    <div>
+  <!--NAVIGATION BAR-->
+  <nav>
+    <div class="nav-wrapper">
+      <a href="index.html" class="brand-logo"><img src="logo.png" class="logo"></a>
+      <ul id="nav-mobile" class="right side-nav">
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="sigs.html">Groups</a></li>
+        <li><a href="http://hackutd.co" target="_blank">Hack_UTD</a></li>
+        <li><a href="#contact">Get Updates</a></li>
+      </ul>
+      <a class="button-collapse" href="#" data-activates="nav-mobile"><i class="mdi-navigation-menu"></i></a>
+    </div>
+  </nav>
 
-      <div>
-        
-      </div>
 
-      <div>
-      </div>
+  <section id="contact">
+    <h3>Keep Up With ACM</h3>
+    <div class="row">
+      <form class="col s9">
+        <div class="row">
+          <div class="input-field col s12">
+            <input id="first_name" type="text" required>
+            <label for="first_name">First Name</label>
+          </div>
+          <div class="input-field col s12">
+            <input id="last_name" type="text" required>
+            <label for="last_name">Last Name</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s12">
+            <input id="email" type="email" required>
+            <label for="email">Email</label>
+          </div>
+        </div>
+      </form>
 
-      <div>
+      <form action="#" class="col s3">
+        <p>Preferred Format</p>
+        <p>
+          <input name="group1" type="radio" id="test5" />
+          <label for="test5">HTML</label>
+        </p>
+        <p>
+          <input name="group1" type="radio" id="test6" />
+          <label for="test6">Text</label>
+        </p>
+      </form>
+
+      <div class="row subscribe">
+        <a href="" class="waves-effect waves-light btn">Subscribe</a>
       </div>
 
     </div>
 
 
+
   </section>
+
+
+  <!--Import jQuery before materialize.js-->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script type="text/javascript" src="materialize_v0.82/js/materialize.min.js"></script>
+  <script type="text/javascript" src = "index.js"></script>
 </body>
 </html>
