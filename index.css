@@ -234,6 +234,15 @@ h3 {
   .subscribe {
     text-align: center;
   }
+  h2, h3 {
+    padding: 25px 0;
+  }
+  .title {
+    margin: 35px auto 20px auto;
+  }
+  .center {
+    margin: 20px auto 35px auto;
+  }
 }
 @media screen and (max-width: 657px) {
   .small {
