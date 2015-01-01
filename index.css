@@ -198,6 +198,91 @@ h3 {
 .meet {
   text-align: center;
 }
+.officerrow {
+  margin: 0 auto;
+  text-align: left;
+}
+.officerwrapper {
+  width: 85%;
+  margin: 0 auto;
+}
+.officer, .officerpic {
+  width: 100%;
+}
+.officercard {
+  -webkit-border-radius:2px;
+  -moz-border-radius:2px;
+  border-radius:2px;
+  background-clip:padding-box;
+  position: relative;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+.officercard p {
+font-size: 14px;
+font-family: "Roboto", sans-serif;
+font-weight: bold;
+-webkit-font-smoothing: antialiased;
+margin: 0;
+}
+.officercard .card-content {
+  position:relative;
+  overflow:hidden;
+  padding: 5px 10px;
+  border-radius: 0 0 2px 2px;
+  background-clip: padding-box;
+  box-sizing: border-box;
+}
+.officercard .card-title {
+  line-height: 32px;
+  font-size: 16px;
+  font-weight: 300;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.05rem;
+}
+.officercard .card-action {
+  border-top: 1px solid rgba(160, 160, 160, 0.2);
+  padding: 10px;
+  font-size: 12px;
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+}
+.leftlink {
+  margin-right: 8px;
+}
+.officercard a {
+  color: #727272;
+  transition: color 0.3s ease;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: transparent;
+  cursor: auto;
+  font-size: 12px;
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+}
+.officercard a:hover {
+  color: #FF5722;
+}
+
+.valign-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+img.circle {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  background-clip: padding-box;
+}
+img.responsive-img {
+  max-width: 100%;
+  height: auto;
+}
+.moi {
+  border: 2px solid red;
+}
 @media screen and (max-width: 992px) {
   .unnested, .collapsible {
     width: 70%;
@@ -222,6 +307,10 @@ h3 {
   }
   .firstcard {
     width: 67%;
+  }
+  .officerwrapper {
+    width: 90%;
+    margin: 0 auto;
   }
 }
 @media screen and (max-width: 730px) {
@@ -273,10 +362,16 @@ h3 {
   .topspace, .small {
     margin: 0.8em auto 0 auto;
   }
+  .officerwrapper {
+    width: 65%;
+  }
 }
 @media screen and (max-width: 526px) {
   .banner {
     height: 250px;
+  }
+  .officerwrapper {
+    width: 75%;
   }
 }
 @media screen and (max-width: 468px) {
@@ -286,9 +381,17 @@ h3 {
   .aboutuswrap {
     width: 100%;
   }
+  .officerwrapper {
+    width: 80%;
+    margin: 0 auto;
+  }
 }
 @media screen and (max-width: 425px) {
   .banner {
     height: 190px;
+  }
+  .officerwrapper {
+    width: 90%;
+    margin: 0 auto;
   }
 }
