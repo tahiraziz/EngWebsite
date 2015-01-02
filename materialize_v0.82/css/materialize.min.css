@@ -5944,7 +5944,7 @@ nav {
 }
 
 nav .nav-wrapper {
-  position:relative;
+  position: relative;
   height:100%;
 }
 
@@ -7035,18 +7035,18 @@ ul.collapsible {
 }
 
 .input-field label {
-  color:#bdbdbd;
+  color:#9E9E9E;
   position:absolute;
-  z-index:-1;
+  z-index: 1;
   top:.8rem;
   left:.5rem;
+  cursor: text;
   -webkit-transition:transform .2s ease-out;
   -moz-transition:transform .2s ease-out;
   -o-transition:transform .2s ease-out;
   -ms-transition:transform .2s ease-out;
   transition:transform .2s ease-out
 }
-
 .input-field label.active {
   transform:translateY(-130%)
 }
@@ -7065,7 +7065,7 @@ ul.collapsible {
 input[type=text],input[type=password],input[type=email],textarea {
   background-color:transparent;
   border:none;
-  border-bottom:1px solid #bdbdbd;
+  border-bottom:1px solid #9E9E9E;
   outline:none;
   height:3rem;
   width:100%;
@@ -7535,5 +7535,5 @@ ul.table-of-contents a.active {
   top:0;
   left:0;
   background-color:rgba(0,0,0,0.5);
-  z-index:999
+  z-index: 999;
 }

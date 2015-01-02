@@ -135,8 +135,8 @@ h2 {
 }
 .contactwrapper {
   width: 100%;
-  margin: 0 auto;
-  border: 2px solid red;
+  margin: 60px auto 0 auto;
+  background: #e0e0e0;
 }
 h3 {
   text-align: center;
@@ -362,6 +362,10 @@ img.responsive-img {
   .center {
     margin: 20px auto 35px auto;
   }
+  .officerwrapper {
+    width: 95%;
+    margin: 0 auto;
+  }
 }
 @media screen and (max-width: 657px) {
   .small, .firstcard {
@@ -393,7 +397,7 @@ img.responsive-img {
 }
 @media screen and (max-width: 595px) {
   .officerwrapper {
-    width: 75%;
+    width: 70%;
   }
 }
 @media screen and (max-width: 526px) {
@@ -401,7 +405,7 @@ img.responsive-img {
     height: 250px;
   }
   .officerwrapper {
-    width: 80%;
+    width: 75%;
   }
 }
 @media screen and (max-width: 468px) {
