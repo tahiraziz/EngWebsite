@@ -14,7 +14,7 @@
   background: #EFEBE9;
 }
 body {
-
+  background: #eee;
 }
 nav {
   z-index: 100;
@@ -112,10 +112,15 @@ h2 {
 .rotate {
   transform: rotate(-180deg);
 }
+.card {
+  background: white;
+}
+.sigintro {
+  background: white;
+}
 .collapsible, .sigintro {
   width: 55%;
   margin: 0 auto;
-
 }
 .collapsible-header {
   padding-left: 20px;
@@ -126,6 +131,12 @@ h2 {
 #contact {
   width: 60%;
   margin: 0 auto;
+
+}
+.contactwrapper {
+  width: 100%;
+  margin: 0 auto;
+  border: 2px solid red;
 }
 h3 {
   text-align: center;
@@ -198,6 +209,9 @@ h3 {
 .meet {
   text-align: center;
 }
+.bottomspace {
+  margin-bottom: 12px;
+}
 .officerrow {
   margin: 0 auto;
   text-align: left;
@@ -208,6 +222,7 @@ h3 {
 }
 .officer, .officerpic {
   width: 100%;
+  background: white;
 }
 .officercard {
   -webkit-border-radius:2px;
@@ -224,11 +239,12 @@ font-family: "Roboto", sans-serif;
 font-weight: bold;
 -webkit-font-smoothing: antialiased;
 margin: 0;
+color: #FF5722
 }
 .officercard .card-content {
   position:relative;
   overflow:hidden;
-  padding: 5px 10px;
+  padding: 5px 10px 5px 0px;
   border-radius: 0 0 2px 2px;
   background-clip: padding-box;
   box-sizing: border-box;
@@ -242,7 +258,7 @@ margin: 0;
 }
 .officercard .card-action {
   border-top: 1px solid rgba(160, 160, 160, 0.2);
-  padding: 10px;
+  padding: 10px 10px 10px 0px;
   font-size: 12px;
   font-family: "Roboto", sans-serif;
   font-weight: normal;
@@ -295,6 +311,12 @@ img.responsive-img {
   }
   #contact {
     width: 80%;
+  }
+  .bottomspace {
+    margin-bottom: 9px;
+  }
+  .ha {
+    margin-bottom: 9px;
   }
 }
 @media screen and (max-width: 817px) {
@@ -363,7 +385,15 @@ img.responsive-img {
     margin: 0.8em auto 0 auto;
   }
   .officerwrapper {
-    width: 65%;
+    width: 79%;
+  }
+  .bottomspace {
+    margin-bottom: 7px;
+  }
+}
+@media screen and (max-width: 595px) {
+  .officerwrapper {
+    width: 75%;
   }
 }
 @media screen and (max-width: 526px) {
@@ -371,7 +401,7 @@ img.responsive-img {
     height: 250px;
   }
   .officerwrapper {
-    width: 75%;
+    width: 80%;
   }
 }
 @media screen and (max-width: 468px) {
@@ -382,7 +412,7 @@ img.responsive-img {
     width: 100%;
   }
   .officerwrapper {
-    width: 80%;
+    width: 85%;
     margin: 0 auto;
   }
 }

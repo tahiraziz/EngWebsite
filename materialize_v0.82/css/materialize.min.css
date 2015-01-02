@@ -5940,12 +5940,12 @@ nav {
   background-color:#FF5722;
   width:100%;
   height:56px;
-  line-height:56px
+  line-height:56px;
 }
 
 nav .nav-wrapper {
   position:relative;
-  height:100%
+  height:100%;
 }
 
 nav a {
@@ -5955,7 +5955,7 @@ nav a {
 nav a.button-collapse {
   float:left;
   position:relative;
-  z-index:1
+  z-index:100;
 }
 
 nav a.button-collapse i {
@@ -7483,6 +7483,7 @@ ul.table-of-contents a.active {
     -o-transition:transform .15s ease-out;
     -ms-transition:transform .15s ease-out;
     transition:transform .15s ease-out
+    z-index: 100;
   }
 
   ul.side-nav.active {
