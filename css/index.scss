@@ -1,3 +1,9 @@
+@import "bourbon";
+$prefix-for-webkit:    true;
+$prefix-for-mozilla:   true;
+$prefix-for-microsoft: true;
+$prefix-for-opera:     true;
+$prefix-for-spec:      true;
 .utdhgreen {
   background:#E8F5E9;
 }
@@ -36,7 +42,7 @@ h5 {
   text-align: center;
 }
 .banner {
-  background-image: url('banner.png');
+  background-image: url('../banner.png');
   background-position: 50% 0%;
   background-size: cover;
   height: 450px;
