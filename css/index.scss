@@ -142,12 +142,51 @@ h2 {
 .contactwrapper {
   width: 100%;
   margin: 60px auto 0 auto;
+  padding-bottom: 15px;
   background: #e0e0e0;
+}
+footer {
+  padding: 40px 60px;
+  background: #E64A19;
+  color: #f5f5f5;
+  p {
+    width: 80%;
+    text-align: left;
+  }
+  @media screen and (max-width: 600px) {
+    padding: 25px 35px;
+  }
+  @media screen and (max-width: 520px) {
+    p {
+      width: 90%;
+    }
+    padding: 15px 25px;
+  }
 }
 h3 {
   text-align: center;
   color: #212121;
-  padding: 40px 0;
+  padding: 35px 0;
+}
+.msg {
+  padding: 0 0 35px 0 !important;
+  margin: 0 !important;
+  text-align: center;
+  font-size: 18px;
+  
+  a {
+    color: #FF5722;
+  }
+  a:link {
+    color: #FF5722;
+    transition: 0.4s ease all;
+  }
+  a:visited {
+    color: #FF5722;
+  }
+  a:hover {
+    color: gray;
+  }
 }
 .subscribe {
   text-align: left;

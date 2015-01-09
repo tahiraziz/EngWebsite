@@ -5,6 +5,7 @@
   <!--Import materialize.css-->
   <link type="text/css" rel="stylesheet" href="materialize_v0.82/css/materialize.min.css"  media="screen,projection"/>
   <link type="text/css" rel="stylesheet" href="css/index.css"/>
+  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1, minimal-ui" name="viewport">
 </head>
 
 <body>
@@ -14,6 +15,7 @@
     <div class="nav-wrapper">
       <a href="index.html" class="brand-logo"><img src="logo.png" class="logo"></a>
       <ul id="nav-mobile" class="right side-nav">
+        <li><a href="index.html">Home</a></li>
         <li><a href="about.html">About Us</a></li>
         <li><a href="sigs.html">Groups</a></li>
         <li><a href="http://hackutd.co" target="_blank">Hack_UTD</a></li>
@@ -44,6 +46,17 @@
             <a href="about.html">About Us</a>
           </div>
         </div>
+
+      <div class="card unnested sigintro topspace">
+      <div class="card-content">
+        <span class="card-title">Announcements</span>
+        <p>Congratulations to the new officers Number One, Number Two, and Number Three for being chosen! Everyone please welcome
+        them! We look forward to working with them and having a great time! Check them out on our about page.</p>
+        </div>
+        <div class="card-action">
+          <a href="https://www.facebook.com/acmatutd" target="_blank">Facebook</a>
+        </div>
+      </div>
 
 
       <h2 id="abt">ACM Events</h2>
@@ -295,7 +308,8 @@
 <!--EMAIL UPDATES-->
 <div class="contactwrapper">
 <section id="contact">
-<h3>Get Email Updates</h3>
+<h3>Get Updates</h3>
+<div class="msg">Sign up for email updates below or like us on <a href="https://www.facebook.com/acmatutd" target="_blank">Facebook</a></div>
   <div class="row">
     <form class="col s9">
       <div class="row">
@@ -335,13 +349,18 @@
   </div>
 
 
-
-</section>
 </div>
+</section>
+
+<footer>
+    <p>&copy <script type="text/javascript">
+    document.write(new Date().getFullYear());
+    </script> ACM UTDallas Chapter. All Rights Reserved</p>
+</footer>
 
 
   <!--Import jQuery before materialize.js-->
-  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
   <script type="text/javascript" src="materialize_v0.82/js/materialize.min.js"></script>
   <script type="text/javascript" src = "index.js"></script>
 </body>
