@@ -1,24 +1,23 @@
 <html>
 <head>
-  <link rel="shortcut icon" href="http://f.cl.ly/items/3Z47152s1S463S3S1a0W/favicon.ico">
-  <title>ACM at UTD</title>
+  <link rel="shortcut icon" href="favicon.ico">
+  <title class="mainTitle"></title>
   <!--Import materialize.css-->
   <link type="text/css" rel="stylesheet" href="materialize_v0.82/css/materialize.min.css"  media="screen,projection"/>
   <link type="text/css" rel="stylesheet" href="css/index.css"/>
   <meta content="width=device-width, initial-scale=1.0, maximum-scale=1, minimal-ui" name="viewport">
 </head>
-
+    <!--THIS IS THE HOME/MAIN PAGE-->
 <body>
 
   <!--NAVIGATION BAR-->
-  <nav>
+  <nav id="top">
     <div class="nav-wrapper">
-      <a href="index.html" class="brand-logo"><img src="logo.png" class="logo"></a>
+      <a href="index.html" class="brand-logo"><img src="acm2.png" class="logo"></a>
       <ul id="nav-mobile" class="right side-nav">
         <li><a href="index.html">Home</a></li>
         <li><a href="about.html">About Us</a></li>
         <li><a href="sigs.html">Groups</a></li>
-        <li><a href="http://hackutd.co" target="_blank">Hack_UTD</a></li>
         <li><a href="#contact">Get Updates</a></li>
       </ul>
       <a class="button-collapse" href="#" data-activates="nav-mobile"><i class="mdi-navigation-menu"></i></a>
@@ -28,260 +27,256 @@
   <!--BANNER PHOTO-->
   <div class="banner"></div>
 
+  
 
-<!--ACM EVENTS-->
+<!--EVENTS-->
   <section class="acm">
 
     <div id="events" class="col s12">
-
+<!--A CARD TO ADD INFORMATION-->
       <div class="card unnested sigintro topspace">
         <div class="card-content">
-          <span class="card-title">ACM at UTD</span>
-          <p>ACM UTD is the official University of Texas at Dallas Student Chapter of
-            the Association for Computing Machinery. We're dedicated towards advancing computing here at
-            UTD. Learn more about what we do and see our officers' beautiful faces
-             or see our upcoming events below!</p>
+          <span class="card-title firstCardTitle"></span>
+          <p class="firstCardContent"></p>
           </div>
           <div class="card-action">
-            <a href="about.html">About Us</a>
+            <a href="#" target="_blank" class="firstCardLink"></a>
           </div>
         </div>
 
+<!--ANOTHER CARD TO ADD INFORMATION-->
       <div class="card unnested sigintro topspace">
       <div class="card-content">
-        <span class="card-title">Announcements</span>
-        <p>Congratulations to the new officers Number One, Number Two, and Number Three for being chosen! Everyone please welcome
-        them! We look forward to working with them and having a great time! Check them out on our about page.</p>
+        <span class="card-title secondCardTitle"></span>
+        <p class="secondCardContent"></p>
         </div>
         <div class="card-action">
-          <a href="https://www.facebook.com/acmatutd" target="_blank">Facebook</a>
+          <a href="#" target="_blank" class="secondCardLink"></a>
         </div>
       </div>
 
 
-      <h2 id="abt">ACM Events</h2>
+      <h2 id="abt" class="firstHeader"></h2>
 
-      <!--ACM EVENT #1-->
+      <!--EVENT #1-->
       <ul class="collection with-header unnested">
-        <li class="collection-header"><h4>Google Industry Talk</h4></li>
+        <li class="collection-header"><h4 class="firstAcmEventTitle"></h4></li>
         <li class="collection-item info">
           <i class="mdi-social-person img one"></i>
-          <div class="txt oneline">Google Speaker</div>
+          <div class="txt oneline firstAcmEventSpeakerHost"></div>
         </li>
         <li class="collection-item info">
           <i class="mdi-action-description img one"></i>
-          <div class="txt">Come hear about the engineering behind another billion-user service, and speak to the engineer about job and internship opportunities afterwards.</div>
+          <div class="txt firstAcmEventDescription"></div>
         </li>
         <li class="collection-item info">
           <i class="mdi-action-event img one"></i>
-          <div class="txt oneline">Thursday, February 19th at 8:30pm</div>
+          <div class="txt oneline firstAcmEventDate"></div>
         </li>
         <li class="collection-item info">
           <i class="mdi-maps-pin-drop img one"></i>
-          <div class="txt oneline">Clark Center 1.112</div>
+          <div class="txt oneline firstAcmEventLocation"></div>
         </li>
-        <!--<li class="collection-item info m"><span class="oneline s">Questions? See our Facebook posts or send us a message.</span><a href="#!" class="secondary-content"><i class="secondary-content mdi-content-send"></i></a></li>-->
       </ul>
 
       <div class="card help with-header unnested topspace">
         <div class="card-content">
-          <span class="card-title">Questions?</span>
-          <p>If you have any questions or want to learn more, contact us at the links below.
-          Our Facebook posts also have a lot of useful information, especially on stuff besides
-          events, so be sure to like our page!</p>
+          <span class="card-title thirdCardTitle"></span>
+          <p class="thirdCardContent"></p>
           </div>
           <div class="card-action">
-            <a href="mailto:acm@utd.com?Subject=Question" target="_blank">Email</a>
-            <a href="https://www.facebook.com/acmatutd" target="_blank">Facebook</a>
+            <a href="mailto:acm@utd.com?Subject=Question" target="_blank" class="thirdCardLink1"></a>
+            <a href="https://www.facebook.com/acmatutd" target="_blank" class="thirdCardLink2"></a>
           </div>
         </div>
 
 
 
-      <!--ACM EVENT #2-->
+      <!--EVENT #2-->
       <ul class="collection with-header unnested topspace">
-        <li class="collection-header"><h4>Google Industry Talk</h4></li>
+        <li class="collection-header"><h4 class="secondAcmEventTitle"></h4></li>
         <li class="collection-item info">
           <i class="mdi-social-person img one"></i>
-          <div class="txt oneline">Google Speaker</div>
+          <div class="txt oneline secondAcmEventSpeakerHost"></div>
         </li>
         <li class="collection-item info">
           <i class="mdi-action-description img one"></i>
-          <div class="txt">Come hear about the engineering behind another billion-user service, and speak to the engineer about job and internship opportunities afterwards.</div>
+          <div class="txt secondAcmEventDescription"></div>
         </li>
         <li class="collection-item info">
           <i class="mdi-action-event img one"></i>
-          <div class="txt oneline">Thursday, February 19th at 8:30pm</div>
+          <div class="txt oneline secondAcmEventDate"></div>
         </li>
         <li class="collection-item info">
           <i class="mdi-maps-pin-drop img one"></i>
-          <div class="txt oneline">Clark Center 1.112</div>
+          <div class="txt oneline secondAcmEventLocation"></div>
         </li>
-        <!--<li class="collection-item info m"><span class="oneline s">Questions? See our Facebook posts or send us a message.</span><a href="#!" class="secondary-content"><i class="secondary-content mdi-content-send"></i></a></li>-->
       </ul>
 
 
-      <!--SIG EVENTS-->
+      <!--MORE EVENTS/CONTENT-->
 
-      <h2 id="sigs">SIG Events</h2>
+      <h2 id="sigs" class="secondHeader"></h2>
 
       <section class="sigs">
-
+<!--A CARD TO ADD MORE INFORMATION-->
         <div class="card unnested sigintro">
           <div class="card-content">
-            <span class="card-title">Special Interest Groups</span>
-            <p>ACM and SIGs cooperate with each other to produce more successful events and
-              entertain a wider variety of computing. Check out the upcoming events below!</p>
+            <span class="card-title fourthCardTitle"></span>
+            <p class="fourthCardContent"></p>
             </div>
             <div class="card-action">
-              <a href="sigs.html">Visit SIGs</a>
+              <a href="sigs.html" target="_blank" class="fourthCardLink"></a>
             </div>
           </div>
 
+<!--COLLAPSIBLE. YOU CAN ADD MORE EVENTS HERE OR USE IT FOR MORE CONTENT.-->
         <ul class="collapsible topspace">
+        <!--COLLAPSIBLE ITEM #1-->
           <li>
             <div class="collapsible-header info m utdhgreen">
-              <span class="one">HackDFW</span><i class="mdi-navigation-arrow-drop-down-circle darkgreen txt"></i>
+              <span class="one firstclTitle"></span><i class="mdi-navigation-arrow-drop-down-circle darkgreen txt"></i>
             </div>
 
             <div class="collapsible-body">
               <ul class="collection nested">
                 <li class="collection-item info">
-                  <i class="mdi-social-people img one l"></i>
-                  <div class="txt oneline">UTD Hackers ft. Speaker Name</div>
+                  <i class="firstcl1Icon img one l"></i>
+                  <div class="txt oneline firstcl1Text"></div>
                 </li>
                 <li class="collection-item info">
-                  <i class="mdi-action-description img one l"></i>
-                  <div class="txt">Come hear about the engineering behind another billion-user service, and speak to the engineer about job and internship opportunities afterwards.
-                    Come hear about the engineering behind another billion-user service,
-                    and speak to the engineer about job and internship opportunities afterwards.</div>
+                  <i class="firstcl2Icon img one l"></i>
+                  <div class="txt firstcl2Text"></div>
                   </li>
                   <li class="collection-item info">
-                    <i class="mdi-action-event img one l"></i>
-                    <div class="txt oneline">Thursday, February 19th at 8:30pm</div>
+                    <i class="firstcl3Icon img one l"></i>
+                    <div class="txt oneline firstcl3Text"></div>
                   </li>
                   <li class="collection-item info">
-                    <i class="mdi-maps-pin-drop img one l"></i>
-                    <div class="txt oneline">Clark Center 1.112</div>
+                    <i class="firstcl4Icon img one l"></i>
+                    <div class="txt oneline firstcl4Text"></div>
                   </li>
-                  <li class="collection-item info m"><span class="oneline s l">Questions? Join the Facebook group!</span><a href="https://www.facebook.com/groups/utdhackers/" target="_blank"><i class="secondary-content mdi-content-send darkgreen"></i></a></li>
+                  <li class="collection-item info m"><span class="oneline s l firstcl5Text"></span><a href="https://www.facebook.com/groups/utdhackers/" target="_blank"><i class="secondary-content firstcl5Icon darkgreen"></i></a></li>
                 </ul>
 
               </div>
             </li>
 
+<!--COLLAPSIBLE ITEM #2-->
             <li>
               <div class="collapsible-header info m csggray">
-                <span class="one">Raytheon Industry Talk</span><i class="mdi-navigation-arrow-drop-down-circle darkgray txt"></i>
+                <span class="one secondclTitle"></span><i class="mdi-navigation-arrow-drop-down-circle darkgray txt"></i>
               </div>
 
               <div class="collapsible-body">
                 <ul class="collection nested">
                   <li class="collection-item info">
-                    <i class="mdi-social-people img one l"></i>
-                    <div class="txt oneline">Computer Security Group</div>
+                    <i class="secondcl1Icon img one l"></i>
+                    <div class="txt oneline secondcl1Text"></div>
                   </li>
                   <li class="collection-item info">
-                    <i class="mdi-action-description img one l"></i>
-                    <div class="txt">Come hear about the engineering behind another billion-user service, and speak to the engineer about job and internship opportunities afterwards.</div>
+                    <i class="secondcl2Icon img one l"></i>
+                    <div class="txt secondcl2Text"></div>
                   </li>
                   <li class="collection-item info">
-                    <i class="mdi-action-event img one l"></i>
-                    <div class="txt oneline">Thursday, February 19th at 8:30pm</div>
+                    <i class="secondcl3Icon img one l"></i>
+                    <div class="txt oneline secondcl3Text"></div>
                   </li>
                   <li class="collection-item info">
-                    <i class="mdi-maps-pin-drop img one l"></i>
-                    <div class="txt oneline">Clark Center 1.112</div>
+                    <i class="secondcl4Icon img one l"></i>
+                    <div class="txt oneline secondcl4Text"></div>
                   </li>
-                  <li class="collection-item info m"><span class="oneline s l">Questions? Visit the CSG website!</span><a href="https://csg.utdallas.edu/" target="_blank" class="secondary-content"><i class="secondary-content mdi-content-send darkgray"></i></a></li>
+                  <li class="collection-item info m"><span class="oneline s l secondcl5Text"></span><a href="https://csg.utdallas.edu/" target="_blank" class="secondary-content"><i class="secondary-content secondcl5Icon darkgray"></i></a></li>
                 </ul>
 
               </div>
             </li>
 
+<!--COLLAPSIBLE ITEM #3-->
             <li>
               <div class="collapsible-header info m wwcpink">
-                <span class="one">Alan Turing Movie</span><i class="mdi-navigation-arrow-drop-down-circle darkpink txt"></i>
+                <span class="one thirdclTitle"></span><i class="mdi-navigation-arrow-drop-down-circle darkpink txt"></i>
               </div>
 
               <div class="collapsible-body">
                 <ul class="collection nested">
                   <li class="collection-item info">
-                    <i class="mdi-social-people img one l"></i>
-                    <div class="txt oneline">Women Who Compute</div>
+                    <i class="thirdcl1Icon img one l"></i>
+                    <div class="txt oneline thirdcl1Text"></div>
                   </li>
                   <li class="collection-item info">
-                    <i class="mdi-action-description img one l"></i>
-                    <div class="txt">Come hear about the engineering behind another billion-user service, and speak to the engineer about job and internship opportunities afterwards.</div>
+                    <i class="thirdcl2Icon img one l"></i>
+                    <div class="txt thirdcl2Text"></div>
                   </li>
                   <li class="collection-item info">
-                    <i class="mdi-action-event img one l"></i>
-                    <div class="txt oneline">Thursday, February 19th at 8:30pm</div>
+                    <i class="thirdcl3Icon img one l"></i>
+                    <div class="txt oneline thirdcl3Text"></div>
                   </li>
                   <li class="collection-item info">
-                    <i class="mdi-maps-pin-drop img one l"></i>
-                    <div class="txt oneline">Clark Center 1.112</div>
+                    <i class="thirdcl4Icon img one l"></i>
+                    <div class="txt oneline thirdcl4Text"></div>
                   </li>
-                  <li class="collection-item info m"><span class="oneline s l">Questions? Visit the WWC website!</span><a href="https://www.utdallas.edu/wwc" target="_blank" class="secondary-content"><i class="secondary-content mdi-content-send darkpink"></i></a></li>
+                  <li class="collection-item info m"><span class="oneline s l thirdcl5Text"></span><a href="https://www.utdallas.edu/wwc" target="_blank" class="secondary-content"><i class="secondary-content thirdcl5Icon darkpink"></i></a></li>
                 </ul>
 
               </div>
             </li>
 
-
+<!--COLLAPSIBLE ITEM #4-->
             <li>
               <div class="collapsible-header info m lugyellow">
-                <span class="one">Boot Process Meeting</span><i class="mdi-navigation-arrow-drop-down-circle darkyellow txt"></i>
+                <span class="one fourthclTitle"></span><i class="mdi-navigation-arrow-drop-down-circle darkyellow txt"></i>
               </div>
 
               <div class="collapsible-body">
                 <ul class="collection nested">
                   <li class="collection-item info">
-                    <i class="mdi-social-people img one l"></i>
-                    <div class="txt oneline">Linux Users Group</div>
+                    <i class="fourthcl1Icon img one l"></i>
+                    <div class="txt oneline fourthcl1Text"></div>
                   </li>
                   <li class="collection-item info">
-                    <i class="mdi-action-description img one l"></i>
-                    <div class="txt">Come hear about the engineering behind another billion-user service, and speak to the engineer about job and internship opportunities afterwards.</div>
+                    <i class="fourthcl2Icon img one l"></i>
+                    <div class="txt fourthcl2Text"></div>
                   </li>
                   <li class="collection-item info">
-                    <i class="mdi-action-event img one l"></i>
-                    <div class="txt oneline">Thursday, February 19th at 8:30pm</div>
+                    <i class="fourthcl3Icon img one l"></i>
+                    <div class="txt oneline fourthcl3Text">Thursday, February 19th at 8:30pm</div>
                   </li>
                   <li class="collection-item info">
-                    <i class="mdi-maps-pin-drop img one l"></i>
-                    <div class="txt oneline">Clark Center 1.112</div>
+                    <i class="fourthcl4Icon img one l"></i>
+                    <div class="txt oneline fourthcl4Text"></div>
                   </li>
-                  <li class="collection-item info m"><span class="oneline s l">Questions? Visit the LUG website!</span><a href="https://lug.utdallas.edu/" target="_blank" class="secondary-content"><i class="secondary-content mdi-content-send darkyellow"></i></a></li>
+                  <li class="collection-item info m"><span class="oneline s l fourthcl5Text"></span><a href="https://lug.utdallas.edu/" target="_blank" class="secondary-content"><i class="secondary-content fourthcl5Icon darkyellow"></i></a></li>
                 </ul>
 
               </div>
             </li>
 
+<!--COLLAPSIBLE ITEM #5-->
             <li>
               <div class="collapsible-header info m cbbrown">
-                <span class="one">Weekly Meeting Session</span><i class="mdi-navigation-arrow-drop-down-circle darkbrown txt"></i>
+                <span class="one fifthclTitle"></span><i class="mdi-navigation-arrow-drop-down-circle darkbrown txt"></i>
               </div>
 
               <div class="collapsible-body">
                 <ul class="collection nested">
                   <li class="collection-item info">
-                    <i class="mdi-social-people img one l"></i>
-                    <div class="txt oneline">Codeburners</div>
+                    <i class="fifthcl1Icon img one l"></i>
+                    <div class="txt oneline fifthcl1Text"></div>
                   </li>
                   <li class="collection-item info">
-                    <i class="mdi-action-description img one l"></i>
-                    <div class="txt">Come hear about the engineering behind another billion-user service, and speak to the engineer about job and internship opportunities afterwards.</div>
+                    <i class="fifthcl2Icon img one l"></i>
+                    <div class="txt fifthcl2Text"></div>
                   </li>
                   <li class="collection-item info">
-                    <i class="mdi-action-event img one l"></i>
-                    <div class="txt oneline">Thursday, February 19th at 8:30pm</div>
+                    <i class="fifthcl3Icon img one l"></i>
+                    <div class="txt oneline fifthcl3Text"></div>
                   </li>
                   <li class="collection-item info">
-                    <i class="mdi-maps-pin-drop img one l"></i>
-                    <div class="txt oneline">Clark Center 1.112</div>
+                    <i class="fifthcl4Icon img one l"></i>
+                    <div class="txt oneline fifthcl4Text"></div>
                   </li>
-                  <li class="collection-item info m"><span class="oneline s l">Questions? Email Dr. Page</span><a href="mailto:ivor@utdallas.edu?Subject=Codeburners" class="secondary-content"><i class="secondary-content mdi-content-send darkbrown"></i></a></li>
+                  <li class="collection-item info m"><span class="oneline s l fifthcl5Text"></span><a href="mailto:ivor@utdallas.edu?Subject=Codeburners" class="secondary-content"><i class="secondary-content fifthcl5Icon darkbrown"></i></a></li>
                 </ul>
 
               </div>
@@ -305,24 +300,28 @@
   </section>
 
 
-<!--EMAIL UPDATES-->
+<!--EMAIL UPDATES SECTION-->
+<!--PLEASE NOTE YOU WILL HAVE TO ADD CODE IN SO THE RADIO BUTTONS AND FORM WILL ACTUALLY WORK. JUST PLACEHOLDERS ARE IN FOR NOW-->
 <div class="contactwrapper">
 <section id="contact">
 <h3>Get Updates</h3>
-<div class="msg">Sign up for email updates below or like us on <a href="https://www.facebook.com/acmatutd" target="_blank">Facebook</a></div>
+<div class="msg">Sign up for email updates below or like us on <a href="https://www.facebook.com" target="_blank">Facebook</a></div>
   <div class="row">
     <form class="col s9">
       <div class="row">
+      <!--FIRST NAME PLACEHOLDER-->
         <div class="input-field col s12">
           <input id="first_name" type="text" required>
           <label for="first_name">First Name</label>
         </div>
+      <!--LAST NAME PLACEHOLDER-->
         <div class="input-field col s12">
           <input id="last_name" type="text" required>
           <label for="last_name">Last Name</label>
         </div>
       </div>
       <div class="row">
+      <!--EMAIL PLACEHOLDER-->
         <div class="input-field col s12">
           <input id="email" type="email" required>
           <label for="email">Email</label>
@@ -331,37 +330,43 @@
     </form>
 
     <form action="#" class="col s3">
+      <!--RADIO BUTTON OPTIONS-->
       <p>Preferred Format</p>
+       <!--RADIO BUTTON OPTION #1-->
       <p>
         <input name="group1" type="radio" id="test5" />
         <label for="test5">HTML</label>
       </p>
+       <!--RADIO BUTTON OPTION #2-->
       <p>
         <input name="group1" type="radio" id="test6" />
         <label for="test6">Text</label>
       </p>
     </form>
-
+     <!--SUBMIT/SUBSCRIBE BUTTON-->
     <div class="row subscribe">
       <a href="" class="waves-effect waves-light btn">Subscribe</a>
     </div>
 
   </div>
 
-
-</div>
 </section>
+</div>
 
+<!--FOOTER-->
 <footer>
+<!--FOOTER AUTOMATICALLY UPDATES THE YEAR WITH THE JAVASCRIPT-->
     <p>&copy <script type="text/javascript">
     document.write(new Date().getFullYear());
-    </script> ACM UTDallas Chapter. All Rights Reserved</p>
+    </script> Club UTDallas Chapter. All Rights Reserved</p>
+    <a href="#top" class="rotate"><i class="mdi-navigation-arrow-drop-down-circle top"></i></a>
 </footer>
 
-
-  <!--Import jQuery before materialize.js-->
-  <script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
-  <script type="text/javascript" src="materialize_v0.82/js/materialize.min.js"></script>
+<!--IMPORTING JQUERY, FRAMEWORK AND JS FILES-->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+   <script type="text/javascript" src="updates.js"></script>
+  <script type="text/javascript" src = "materialize_v0.82/js/materialize.min.js"></script>
   <script type="text/javascript" src = "index.js"></script>
+  
 </body>
 </html>
