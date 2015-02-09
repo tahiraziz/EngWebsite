@@ -1,4 +1,4 @@
-ACMUTD
+Eng. Club Website
 
-Making new ACM site
+Made club for Eng. clubs who need a site
 ======
