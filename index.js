@@ -29,7 +29,7 @@ $(".collapsible-header").click(function() {
   $(this).find('.mdi-navigation-arrow-drop-down-circle').toggleClass("rotate");
   $('.collapsible-header').parent().not('.active').find('.mdi-navigation-arrow-drop-down-circle').removeClass("rotate");
 });
-$('.input-field').find(label).mouseenter(function() {
+$('.input-field').find('.label').mouseenter(function() {
   $(this).css("z-index", "1");
 });
 
