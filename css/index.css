@@ -1,18 +1,3 @@
-.utdhgreen {
-  background: #E8F5E9; }
-
-.csggray {
-  background: #ECEFF1; }
-
-.wwcpink {
-  background: #FCE4EC; }
-
-.lugyellow {
-  background: #FFFDE7; }
-
-.cbbrown {
-  background: #EFEBE9; }
-
 body {
   background: #eee; }
 
@@ -64,7 +49,9 @@ h2 {
 .with-header {
   width: 55%;
   margin: 0 auto; }
-
+.collection {
+  max-width: 800px;
+}
 .collection-header {
   background: #FFCCBC;
   color: #212121; }
@@ -109,25 +96,6 @@ h2 {
   font-size: 1.6rem;
   margin-right: 13px; }
 
-.darkgreen, .darkgray, .darkpink, .darkyellow, .darkbrown {
-  -webkit-transition: 0.4s ease all;
-          transition: 0.4s ease all; }
-
-.darkgreen:hover {
-  color: #4CAF50; }
-
-.darkgray:hover {
-  color: #607D8B; }
-
-.darkpink:hover {
-  color: #E91E63; }
-
-.darkyellow:hover {
-  color: #FFEB3B; }
-
-.darkbrown:hover {
-  color: #795548; }
-
 .rotate {
   -webkit-transform: rotate(-180deg);
       -ms-transform: rotate(-180deg);
@@ -141,10 +109,24 @@ h2 {
 
 .collapsible, .sigintro {
   width: 55%;
-  margin: 0 auto; }
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+.collapsible i {
+  color: #FF5722;
+}
+.collapsible .mdi-content-send:hover {
+  color: #727272;
+}
+.collapsible .mdi-navigation-arrow-drop-down-circle:hover {
+  color: #727272;
+}
 
 .collapsible-header {
-  padding-left: 20px; }
+  padding-left: 20px; 
+  background: white;
+}
 
 .topspace {
   margin: 1.1em auto 0 auto; }
@@ -275,6 +257,13 @@ h3 {
           justify-content: center;
   margin: 0 auto;
   width: 96%; }
+
+.card.firstcard {
+  max-width: 425px;
+}
+.card.small.topspace {
+  max-width: 425px;
+}
 
 .small, .firstcard {
   margin: 0 auto; }

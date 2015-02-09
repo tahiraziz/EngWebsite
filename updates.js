@@ -27,6 +27,15 @@ FYI--- IF YOU WOULD LIKE TO CHANGE THE VARIABLE NAMES, YOU MAY DO SO. ALSO UPDAT
 1. IF THERE IS A $() IN THE CODE, YOU NEED TO UPDATED THE CLASS NAME INSIDE THE $(). MAKE SURE YOU HAVE A . BEFORE THE CLASS NAME INSIDE THE $(). THEN GO TO THE APPROPRIATE HTML PAGE AND FIND THE OLD CLASS NAME AND REPLACE IT WITH THE NEW CLASS NAME. USE CONTROL/CMD +F TO MAKE FINDING IT EASIER.
 
 2. IF THERE IS A VAR, UPDATE THE VAR NAME. THEN SCROLL DOWN PAST SECTION 4 AND CHANGE THE OLD VARIABLE NAME TO THE NEW ONE. YOU WILL HAVE TO CHANGE IT TWICE. ONCE IN THE $() AND ONCE INSIDE THE PREPEND(). THEN YOU HAVE TO GO THE APPROPRIATE HTML PAGE AND CHANGE THE OLD CLASS NAME TO THE NEW ONE. THE VARIABLE NAME AND CLASS NAME SHOULD BE THE SAME. 
+
+
+IF YOU WANT TO CHANGE A LINK TO MAKE AN EMAIL TO AN EMAIL ADDRESS, CHANGE THE LINK IN THE .ATTR() TO mailto:email@email.com
+IF YOU WANT TO ADD COMPONENTS OR SOMETHING TO THE WEBSITE, GO TO materializecss.com AND UPDATE TO THE LATEST VERSION OF THE FRAMEWORK. YOU WILL HAVE TO REPLACE THE FILES OF THE OLD FRAMEWORK WITH THE NEW ONE. YOU MIGHT HAVE TO CHANGE SOME CSS AFTER UPDATING TO THE LATEST FRAMEWORK. 
+
+IF YOU WANT TO CHANGE THE CLASS/ID NAMES IN THE HTML FILE, YOU MAY DO SO BUT MAKE SURE THAT THE CSS CLASS NAMES ARE ALSO UPDATED. SOME HTML CLASS NAMES CANNOT BE CHANGED BEECAUSE THEY ARE PART OF THE FRAMEWORK, BUT IF YOU CHANGE ANY CHANGEABLE CLASS/ID NAMES, MAKE SURE YOU CHANGE IT IN THE CSS AND IN THIS JS FILE AS WELL AS THE INDEX.JS FILE
+
+IF YOU WOULD LIKE TO CHANGE THE ICONS AND THE STYLING OF THE NAV BAR, GO TO THE MATERIALIZE.MIN.CSS FILE WHICH IS IN THE MATERIALIZE_v0.8something FOLDER. FOR ICONS, SEARCH FOR MDI AND THERE WILL BE A BUNCH OF CLASS NAMES WHICH ARE THE ICONS. THIS LINK https://google.github.io/material-design-icons/ TO SEE THE LIST OF THEM. FOR THE NAV BAR SEARCH FOR NAV.
+TO CHANGE COLORS OF THE ICONS GO TO INDEX.CSS AND CHANGE THE COLOR BY DOING COLOR: #123456; FOR EXAMPLE. YOU CAN CHANGE THE SIZE OF THE ICON BY DOING FONT-SIZE: 10PX; ETC
 ******************************/
 
 
@@ -182,101 +191,102 @@ var thirdAbtText = "ACM, the Association for Computing Machinery, was founded in
 var abtHeader = "Meet the Officers";
 
 
+/*THIS IS WHERE THE OFFICERS ARE LISTED. MAKE SURE THE OFFICER IMAGES ARE 616x616px*/
 /*PRESIDENT*/
 $(".presidentName").prepend("Izuchukwu Elechi");
 $(".presidentImage").attr("src", "tahir.png");
 $(".presidentLink1").prepend("Website");
-$(".presidentLink1").attr("href", "http://izuchukwu.co/");
+$(".presidentLink1").attr("href", "http://yahoo.com");
 $(".presidentLink2").prepend("LinkedIn");
-$(".presidentLink2").attr("href", "https://www.linkedin.com/in/izuchukwu");
+$(".presidentLink2").attr("href", "https://linkedin.com");
 
 /*VICE PRESIDENT*/
 $(".vpName").prepend("Michael Raibick");
 $(".vpImage").attr("src", "tahir.png");
 $(".vpLink1").prepend("Website");
-$(".vpLink1").attr("href", "http://tahir.io"); 
+$(".vpLink1").attr("href", "http://yahoo.com"); 
 $(".vpLink2").prepend("LinkedIn");
-$(".vpLink2").attr("href", "https://www.linkedin.com/in/tahiraziz4");
+$(".vpLink2").attr("href", "https://www.linkedin.com");
 
 /*SECRETARY*/
 $(".secretaryName").prepend("Connie Clark");
 $(".secretaryImage").attr("src", "tahir.png");
 $(".secretaryLink1").prepend("Website");
-$(".secretaryLink1").attr("href", "http://tahir.io"); 
+$(".secretaryLink1").attr("href", "http://yahoo.com"); 
 $(".secretaryLink2").prepend("LinkedIn");
-$(".secretaryLink2").attr("href", "https://www.linkedin.com/in/tahiraziz4");
+$(".secretaryLink2").attr("href", "https://www.linkedin.com");
 
 /*TREASURER*/
 $(".treasurerName").prepend("Michael Hankin");
 $(".treasurerImage").attr("src", "tahir.png");
 $(".treasurerLink1").prepend("Website");
-$(".treasurerLink1").attr("href", "http://tahir.io"); 
+$(".treasurerLink1").attr("href", "http://yahoo.com"); 
 $(".treasurerLink2").prepend("LinkedIn");
-$(".treasurerLink2").attr("href", "https://www.linkedin.com/in/tahiraziz4");
+$(".treasurerLink2").attr("href", "https://www.linkedin.com");
 
 /*ECS AFFAIRS*/
 $(".ecsName").prepend("Reuben Frank");
 $(".ecsImage").attr("src", "tahir.png");
 $(".ecsLink1").prepend("LinkedIn");
-$(".ecsLink1").attr("href", "https://www.linkedin.com/pub/reuben-frank/a3/32b/b2a"); 
+$(".ecsLink1").attr("href", "https://www.linkedin.com"); 
 $(".ecsLink2").prepend("Facebook");
-$(".ecsLink2").attr("href", "https://www.facebook.com/reuben.a.frank");
+$(".ecsLink2").attr("href", "https://www.facebook.com");
 
 /*DIRECTOR OF SIGS*/
 $(".sigsName").prepend("Tahir Aziz");
 $(".sigsImage").attr("src", "tahir.png");
 $(".sigsLink1").prepend("Website");
-$(".sigsLink1").attr("href", "http://tahir.io"); 
+$(".sigsLink1").attr("href", "http://yahoo.com"); 
 $(".sigsLink2").prepend("LinkedIn");
-$(".sigsLink2").attr("href", "https://www.linkedin.com/in/tahiraziz4");
+$(".sigsLink2").attr("href", "https://www.linkedin.com");
 
 /*Student Affairs*/
 $(".studentAffairsName").prepend("Grace Chow");
 $(".studentAffairsImage").attr("src", "tahir.png");
 $(".studentAffairsLink1").prepend("Website");
-$(".studentAffairsLink1").attr("href", "https://twitter.com/grace___c"); 
+$(".studentAffairsLink1").attr("href", "https://twitter.com"); 
 $(".studentAffairsLink2").prepend("LinkedIn");
-$(".studentAffairsLink2").attr("href", "https://www.linkedin.com/in/gracechow5");
+$(".studentAffairsLink2").attr("href", "https://www.linkedin.com");
 
 /*INDUSTRY AFFAIRS*/
 $(".industryName").prepend("Shaurya Arora");
 $(".industryImage").attr("src", "tahir.png");
 $(".industryLink1").prepend("Website");
-$(".industryLink1").attr("href", "http://shaurya.me/");
+$(".industryLink1").attr("href", "http://yahoo.com");
 $(".industryLink2").prepend("LinkedIn");
-$(".industryLink2").attr("href", "https://www.linkedin.com/pub/shaurya-arora/68/17/619");
+$(".industryLink2").attr("href", "https://www.linkedin.com");
 
 /*PUBLIC RELATIONS #1*/
 $(".pr1Name").prepend("Tej Gidvani");
 $(".pr1Image").attr("src", "tahir.png");
 $(".pr1Link1").prepend("Website");
-$(".pr1Link1").attr("href", "http://tahir.io"); 
+$(".pr1Link1").attr("href", "http://yahoo.com"); 
 $(".pr1Link2").prepend("LinkedIn");
-$(".pr1Link2").attr("href", "https://www.linkedin.com/in/tahiraziz4");
+$(".pr1Link2").attr("href", "https://www.linkedin.com");
 
 /*PUBLIC RELATIONS #2*/
 $(".pr2Name").prepend("Braden Herndon");
 $(".pr2Image").attr("src", "tahir.png");
 $(".pr2Link1").prepend("Website");
-$(".pr2Link1").attr("href", "http://tahir.io"); 
+$(".pr2Link1").attr("href", "http://yahoo.com"); 
 $(".pr2Link2").prepend("LinkedIn");
-$(".pr2Link2").attr("href", "https://www.linkedin.com/in/tahiraziz4");
+$(".pr2Link2").attr("href", "https://www.linkedin.com");
 
 /*HACKATHON AFFAIRS*/
 $(".hackathonName").prepend("Diem-Nhi Tran");
 $(".hackathonImage").attr("src", "tahir.png");
 $(".hackathonLink1").prepend("Website");
-$(".hackathonLink1").attr("href", "http://tahir.io"); 
+$(".hackathonLink1").attr("href", "http://yahoo.com"); 
 $(".hackathonLink2").prepend("LinkedIn");
-$(".hackathonLink2").attr("href", "https://www.linkedin.com/in/tahiraziz4");
+$(".hackathonLink2").attr("href", "https://www.linkedin.com");
 
 /*FACULTY SPONSOR*/
 $(".sponsorName").prepend("John Cole");
 $(".sponsorImage").attr("src", "tahir.png");
 $(".sponsorLink1").prepend("Website");
-$(".sponsorLink1").attr("href", "http://utd.edu/~john.cole/"); 
+$(".sponsorLink1").attr("href", "http://utdalas.edu"); 
 $(".sponsorLink2").prepend("Email");
-$(".sponsorLink2").attr("href", "mailto:John.Cole@utdallas.edu");
+$(".sponsorLink2").attr("href", "mailto:bob@bob.gmail.com");
 
 
 
@@ -327,6 +337,29 @@ SECTION 4: THE EXTRA STUFF
 MAKE SURE YOU TYPE THE WHOLE THING IN ONE LINE. DO NOT BREAK THE LINE OR BAD THINGS WILL HAPPEN
 ***********************/
 
+/*FAVICON ON BROWSER TOP*/
+$('.favicon').attr("href", "favicon.ico");
+
+/*THESE ARE THE MENU OPTIONS ON THE NAV BAR*/
+$('.menu1').prepend("Home");
+$('.menu2').prepend("About Us");
+$('.menu3').prepend("Groups");
+$('.menu4').prepend("Get Updates");
+
+/*LOGO ON THE NAV BAR*. MAKE SURE THE DIMENSONS OF THE LOGO IMAGE ARE 279X140 PX . IF THEY ARE NOT, YOU WILL HAVE TO PLAY AROUND WITH THE NAV BAR HEIGHT AND CSS*/
+$('.logo').attr("src", "acm2.png");
+
+/*EMAIL FORM. IF YOU WANT TO EDIT THE ACTUAL FORM, GO THE MATERIALZECSS.COM WEBSITE AND GET THE COMPONENTS FOR THE FORM THERE.*/
+$('.contactHeader').prepend("Get Updates");
+$('.msg').prepend("Sign up for email updates below or like us on ");
+$('.contactLink').append("Facebook");
+$('.contactLink').attr("href", "http://facebook.com");
+
+
+/*FOOTER*/
+$('.copyright').append(" Club UTDallas Chapter. All Rights Reserved");
+
+/*IF YOU WANT TO CHANGE THE BANNER PHOTO THEN YOU HAVE TO GO INTO INDEX.CSS AND SEARCH FOR ".BANNER" AND UPDATE THE URL. YOU WILL PROBBABLY HAVE THE MESS AROUND WITH THE BACKGROUND-POSITION AND THE HEIGHT AT DIFFERENT VIEWPORTS (THE .BANNER AT DIFFERENT @MEDIA SCREEN STUFF)*/
 
 
 
@@ -401,6 +434,7 @@ $('.thirdAbtTitle').prepend(thirdAbtTitle);
 $('.thirdAbtText').prepend(thirdAbtText);
 $('.abtHeader').prepend(abtHeader);
 
+
 /*EXTRA PAGE*/
 $('.otherTitle').prepend(otherTitle);
 $('.otherHeader').prepend(otherHeader);
@@ -413,7 +447,3 @@ $('.card3Title').prepend(card3Title);
 $('.card3Text').prepend(card3Text);
 $('.card4Title').prepend(card4Title);
 $('.card4Text').prepend(card4Text);
-
-/*EXTRA STUFF*/
-
-
